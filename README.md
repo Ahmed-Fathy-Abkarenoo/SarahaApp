@@ -24,8 +24,3 @@ SarahaApp is a backend-only RESTful API for an anonymous messaging platform, sim
 - **JWT** (JSON Web Tokens)
 - **bcryptjs** (for password hashing)
 - **dotenv** (for environment configuration)
-
----
-
-## 📂 Folder Structure
-
