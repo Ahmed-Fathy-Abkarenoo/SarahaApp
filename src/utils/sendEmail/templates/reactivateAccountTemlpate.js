@@ -1,0 +1,16 @@
+export const reactivateEmailTemplate = (emailLink) => {
+  return `<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>confirm Email</title>
+    </head>
+    <body>
+        <div style="width: 300px; height: 300px; background-color: lightgray; text-align: center;">
+            <h1> Reactivate your Account</h1>
+            <a href=${emailLink}>Click here to verify</a>
+        </div>
+    </body>
+    </html>`;
+};
